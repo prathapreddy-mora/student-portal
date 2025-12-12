@@ -1,0 +1,5 @@
+{
+  "name": "Reddy Hostel Management System",
+  "description": "A comprehensive hostel management system for Reddy community students, featuring a public portal for information and registration, and a secure admin dashboard for managing students, rooms, fees, and attendance.",
+  "requestFramePermissions": []
+}

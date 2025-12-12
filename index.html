@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reddy Hostel Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#2563EB', // blue-600 (darker)
+              'brand-primary-dark': '#1D4ED8', // blue-700
+              'brand-primary-light': '#3B82F6', // blue-500
+              'brand-secondary': '#F59E0B', // amber-500
+              'brand-secondary-dark': '#D97706', // amber-600
+              'brand-bg': '#F3F4F6', // gray-100
+              'brand-surface': '#FFFFFF',
+              'brand-text': '#111827', // gray-900
+              'brand-text-secondary': '#4B5563', // gray-600
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Enforce white text and dark background for all textareas (existing and dynamic) */
+      textarea {
+        color: #FFFFFF !important;
+        background-color: #1F2937 !important; /* Dark gray (gray-800) for contrast */
+        border: 1px solid #4B5563 !important; /* gray-600 border */
+      }
+      
+      /* Ensure placeholder text is readable */
+      textarea::placeholder {
+        color: #9CA3AF !important; /* gray-400 */
+        opacity: 1;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.26.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-bg text-brand-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
