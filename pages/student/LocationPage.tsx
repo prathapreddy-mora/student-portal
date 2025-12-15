@@ -9,7 +9,7 @@ const LocationPage: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2">
             {/* Using a static image to represent a map */}
-            <img src="https://picsum.photos/seed/map/1200/600" alt="Map Location" className="rounded-lg shadow-lg w-full h-full object-cover"/>
+            <img src="C:\Users\prath\OneDrive\Pictures\RH FRONT VIEW.jpg/1200/600"alt="Map Location" className="rounded-lg shadow-lg w-full h-full object-cover"/>
           </div>
           <div className="md:col-span-1 text-lg text-brand-text-secondary bg-gray-50 p-6 rounded-lg">
             <h3 className="text-2xl font-bold text-brand-primary mb-4">Hostel Address</h3>
