@@ -8,7 +8,7 @@ const AboutPage: React.FC = () => {
         <h2 className="text-4xl font-extrabold text-brand-primary mb-6 text-center">About Reddy Hostel</h2>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <img src="https://picsum.photos/800/600?random=1" alt="Hostel Building" className="rounded-lg shadow-lg w-full h-auto object-cover"/>
+            <img src="C:\Users\prath\OneDrive\Pictures\RH.jpg" alt="Hostel Building" className="rounded-lg shadow-lg w-full h-auto object-cover"/>
           </div>
           <div className="text-lg text-brand-text-secondary space-y-4">
             <p>
